@@ -1,0 +1,9 @@
+---
+layout: post
+title: Launching
+category: posts
+---
+
+This lauching of my blog.
+
+---
