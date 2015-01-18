@@ -7,5 +7,7 @@ url: "http://kenrick.me" # the base hostname & protocol for your site
 twitter_username: kenrick1991
 github_username:  kenrick
 
+permalink:  /blog/:title.html
+
 # Build settings
 markdown: kramdown

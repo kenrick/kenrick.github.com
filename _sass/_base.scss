@@ -79,12 +79,8 @@ li {
 /**
  * Headings
  */
-h1, h2 {
-  font-family: $header-font-family;
-  font-size: $header-font-size;
-}
-
 h1, h2, h3, h4, h5, h6 {
+    font-family: $header-font-family;
     font-weight: 700;
 }
 
@@ -97,15 +93,25 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
         color: $text-color;
         text-decoration: underline;
     }
 }
+
+h1, h2, h3, h4, h5, h6 {
+  a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+
+}
+
 
 
 
@@ -133,9 +139,10 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid #002b36;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #002b36;
+    color: #FFF;
 }
 
 code {
