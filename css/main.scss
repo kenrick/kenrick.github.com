@@ -19,11 +19,12 @@ $spacing-unit:     30px;
 
 $text-color:       #444;
 $background-color: #fdfdfd;
-$brand-color:      #2aa198;
-
+$cyan-brand-color: #2aa198;
+$brand-color:      #268bd2;
 $dark-brand-color: #002b36;
+$red-brand-color:  #cb4b16;
 
-$grey-color:       #93a1a1;
+$grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  $brand-color;
 
@@ -54,5 +55,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "home"
 ;

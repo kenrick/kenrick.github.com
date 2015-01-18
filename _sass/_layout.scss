@@ -3,11 +3,14 @@
  */
 .site-header {
     border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    // -webkit-box-shadow: 0 0px 8px 0 rgba(2, 3, 3, 0.16);
+    // box-shadow: 0 0px 8px 0 rgba(2, 3, 3, 0.16);
 }
 
 .site-title {

@@ -1,11 +1,10 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Who Am I
+permalink: /is/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Kenrick Beckett is a Software Developer, focusing on end-to-end software development and delivery.
+He passionate about implementing simple solutions to build complex applications.
+He is an advocate for using the best tool for the job and enjoys participating in open source projects.
+He enjoys researching new and innovative ways to solve problems and increase performance and security.

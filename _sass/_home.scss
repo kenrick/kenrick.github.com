@@ -1,0 +1,22 @@
+.home {
+  text-align: center;
+  margin: 0 60px;
+
+  @include media-query($on-laptop) {
+    margin: 0;
+  }
+
+  h2 {
+    line-height: 37px;
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+
+  p {
+    padding-bottom: 10px;
+    font-weight: 300;
+    line-height: 32.4px;
+    color: #a3a3a3;
+  }
+}
