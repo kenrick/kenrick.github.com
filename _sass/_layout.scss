@@ -183,6 +183,9 @@
 
     > li {
         margin-bottom: $spacing-unit;
+        > h2 {
+          margin-bottom: 0;
+        }
     }
 }
 
@@ -193,7 +196,16 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 34px;
+    color: $text-color;
+
+    &:hover {
+      color: $dark-brand-color;
+    }
+
+    @include media-query($on-palm) {
+      font-size: 24px;
+    }
 }
 
 

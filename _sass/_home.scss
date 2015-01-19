@@ -36,4 +36,17 @@
   #iams {
     position: relative;
   }
+
+  .divider {
+    display: block;
+    background: $cyan-brand-color;
+    margin: 60px auto;
+    height: 1px;
+    width: 50px;
+
+    @include media-query($on-palm) {
+      margin: 35px auto;
+      width: 100%;
+    }
+  }
 }

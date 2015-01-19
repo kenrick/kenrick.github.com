@@ -12,22 +12,22 @@ layout: landing
       <a {% if iam.link %} href="{{ iam.link }}" {% endif %} class="iams" style="color: {{ iam.color }};"> {{ iam.sentence }} </a>
     {% endfor %}
   </p>
-  <p>Feel free to get in touch</p>
+  <p>Feel free to get in <a href="mailto:{{ site.email }}">touch</a></p>
 
-  <!-- <h1 class="page-heading">Recent Posts</h1>
+  <span class="divider"></span>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
       </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
 
 </div>
