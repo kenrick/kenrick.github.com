@@ -7,6 +7,21 @@ url: "http://kenrick.me" # the base hostname & protocol for your site
 twitter_username: kenrick1991
 github_username:  kenrick
 
+iams:
+  - color: "#CC342D"
+    sentence: I love crafting applications in Ruby
+  - color: "#f39c12"
+    sentence: I am enchanted by JavaScript
+  - color: "#6dbd63"
+    link: http://www.codedry.com
+    sentence: I'm a consultant at Codedry
+  - color: "#333"
+    link: http://github.com/kenrick
+    sentence: I'm kenrick on GitHub
+  - color: "#55ACEE"
+    link: http://twitter.com/kenrick1991
+    sentence: I'm @kenrick1991 on Twitter
+
 permalink:  /blog/:title.html
 
 # Build settings

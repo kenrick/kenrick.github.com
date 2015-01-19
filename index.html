@@ -5,7 +5,13 @@ layout: landing
 <div class="home">
 
   <h2>Hey, I’m Kenrick and I am really passionate about bringing ideas to life through the Web.</h2>
-  <p>I’m a Software Engineer and Entrepreneur who ...</p>
+  <p>I’m a Software Engineer, Entrepreneur and</p>
+  <p id='iams'>
+    &nbsp;
+    {% for iam in site.iams %}
+      <a {% if iam.link %} href="{{ iam.link }}" {% endif %} class="iams" style="color: {{ iam.color }};"> {{ iam.sentence }} </a>
+    {% endfor %}
+  </p>
   <p>Feel free to get in touch</p>
 
   <!-- <h1 class="page-heading">Recent Posts</h1>

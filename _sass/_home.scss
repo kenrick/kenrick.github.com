@@ -14,9 +14,26 @@
   }
 
   p {
-    padding-bottom: 10px;
     font-weight: 300;
-    line-height: 32.4px;
     color: #a3a3a3;
+    font-size: 25px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+
+  .iams {
+    visibility: hidden;
+    position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  #iams {
+    position: relative;
   }
 }
