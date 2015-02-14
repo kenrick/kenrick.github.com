@@ -2,6 +2,53 @@
   text-align: center;
   margin: 0 60px;
 
+  #gravatar {
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: $brand-color 5px solid;
+  }
+
+  #social-icons {
+
+    a {
+
+      color: $dark-brand-color;
+      border:  $dark-brand-color 2px solid;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: block;
+      padding: 6px 4px 0px 4px;
+
+      &:hover {
+        text-decoration: none;
+        color: white;
+
+        &.fa-twitter {
+          background-color: #55ACEE;
+          border-color: #55ACEE;
+        }
+
+        &.fa-linkedin {
+          background-color: #007bb6;
+          border-color: #007bb6;
+        }
+
+        &.fa-github {
+          background-color: #111;
+          border-color: #111;
+        }
+
+        &.fa-rss {
+          background-color: #FF6600;
+          border-color: #FF6600;
+        }
+
+      }
+    }
+
+  }
+
   @include media-query($on-laptop) {
     margin: 0;
   }

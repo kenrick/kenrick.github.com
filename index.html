@@ -3,7 +3,15 @@ layout: landing
 ---
 
 <div class="home">
-
+  <img id="gravatar" src="{{ site.gravatar_url }}?s=150" alt="Picture of {{ site.title }}" />
+  <section id="social-icons">
+    <ul class="list-inline">
+      <li><a href="{{ site.twitter_url }}" class="fa fa-twitter fa-2x"></a></li>
+      <li><a href="{{ site.github_url }}" class="fa fa-github fa-2x"></a></li>
+      <li><a href="{{ site.linkedin_url }}" class="fa fa-linkedin fa-2x"></a></li>
+      <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="fa fa-rss fa-2x"></a></li>
+    </ul>
+  </section>
   <h2>Hey, I’m Kenrick and I am really passionate about bringing ideas to life through the Web.</h2>
   <p>I’m a Software Engineer, Entrepreneur and</p>
   <p id='iams'>
@@ -27,7 +35,4 @@ layout: landing
       </li>
     {% endfor %}
   </ul>
-
-   <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
-
 </div>
