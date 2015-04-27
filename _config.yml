@@ -1,7 +1,7 @@
 # Site settings
 title: Kenrick Beckett
 email: contact@kenrick.me
-description: The blog, projects and talks by Kenrick Beckett
+description: The blog, projects and videos by Kenrick Beckett
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kenrick.me" # the base hostname & protocol for your site
 gravatar_url: http://www.gravatar.com/avatar/86f71b7b2907e160556f8f00fe940c35
@@ -9,7 +9,7 @@ gravatar_url: http://www.gravatar.com/avatar/86f71b7b2907e160556f8f00fe940c35
 
 #Social media handles
 
-twitter_url: http://twitter.com/kenrick1991
+twitter_url: http://twitter.com/kenrickbeckett
 github_url:  http://github.com/kenrick
 linkedin_url: http://jm.linkedin.com/in/kenrickbeckett
 
