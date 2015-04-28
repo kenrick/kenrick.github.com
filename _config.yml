@@ -5,14 +5,12 @@ description: The blog, projects and videos by Kenrick Beckett
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kenrick.me" # the base hostname & protocol for your site
 gravatar_url: http://www.gravatar.com/avatar/86f71b7b2907e160556f8f00fe940c35
-
+permalink:  /blog/:title.html
 
 #Social media handles
-
 twitter_url: http://twitter.com/kenrickbeckett
 github_url:  http://github.com/kenrick
 linkedin_url: http://jm.linkedin.com/in/kenrickbeckett
-
 
 iams:
   - color: "#CC342D"
@@ -21,15 +19,15 @@ iams:
     sentence: I am enchanted by JavaScript
   - color: "#6dbd63"
     link: http://www.codedry.com
-    sentence: I'm a consultant at Codedry
+    sentence: "I'm a consultant at Codedry"
   - color: "#333"
     link: http://github.com/kenrick
-    sentence: I'm kenrick on GitHub
+    sentence: "I'm kenrick on GitHub"
+  - color: "#375EAB"
+    sentence: "I'm currently learning Go"
   - color: "#55ACEE"
-    link: http://twitter.com/kenrick1991
-    sentence: I'm @kenrick1991 on Twitter
-
-permalink:  /blog/:title.html
+    link: http://twitter.com/kenrickbeckett
+    sentence: "I'm @kenrickbeckett on Twitter"
 
 # Build settings
 markdown: kramdown
